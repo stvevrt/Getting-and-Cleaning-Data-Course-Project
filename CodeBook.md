@@ -84,6 +84,9 @@ This dataset is distributed AS-IS and no responsibility implied or explicit can 
 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
+
+__________________________________________________________________________________________________________________________
+
 The "features_info.txt" file provides additional information about how the data was recorded (exact copy):
 Feature Selection 
 =================
@@ -152,15 +155,18 @@ tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
+_________________________________________________________________________________________________________
+
+
 The correct units for each data field were not provided with the data and are not known.
 The final tidy data set ("tidy_data.txt") contains the following fields:
-"activity"              one of the following: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING" OR "LAYING"
-"subject"               a number corresponding to the subject tested, ranging from 1 to 30
+activity              one of the following: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING" OR "LAYING"
+subject               a number corresponding to the subject tested, ranging from 1 to 30
 All the following fields contain the mean of all the data values for each activity and subject.  For example if 150 data values were collected for "WALKING" for subject number 15, only one value will be shown which is the mean of the 150 data values.
-"tBodyAcc-mean()-X"     
-"tBodyAcc-mean()-Y"
-"tBodyAcc-mean()-Z"
-"tBodyAcc-std()-X"
+tBodyAcc-mean()-X     
+tBodyAcc-mean()-Y
+tBodyAcc-mean()-Z
+tBodyAcc-std()-X
 "tBodyAcc-std()-Y"
 "tBodyAcc-std()-Z"
 "tGravityAcc-mean()-X"
